@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <title>Blog</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        
+        <!--================ Start Header Menu Area =================-->
+             <header class="header_area">
+            <div class="main_menu">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <a class="navbar-brand logo_h" href="i.html"><img src="img/logo.png" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                                <ul class="nav navbar-nav menu_nav ml-auto">
+                                   <li class="nav-item"><a class="nav-link" href="dash.php">Profile</a></li>
+                                     <li class="nav-item"><a class="nav-link" href="blog2.html">Blog</a></li>
+                                    
+                                    <li class="nav-item"><a class="nav-link" href="i.html">Logout</a></li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--================ End Header Menu Area =================-->
+            
+        <!--================ Home Banner Area =================-->
+        <section class="banner_area">
+            <div class="banner_inner d-flex align-items-center">
+                <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+                <div class="container">
+                    <div class="banner_content text-center">
+                         <h2><?php echo $_SESSION['name']; ?></h2>
+                        <h2>Our Blogs</h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog_categorie_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="categories_post">
+                            <img src="ks5.jpg" alt="post">
+                            <div class="categories_details">
+                                <div class="categories_text">
+                                    <a href="blog2.html"><h5>kailash satyarthi</h5></a>
+                                    <div class="border_line"></div>
+                                    <p>Noble peace prize 2014</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="categories_post">
+                            <img src="Bo.jpeg" alt="post">
+                            <div class="categories_details">
+                                <div class="categories_text">
+                                    <a href="single-blog.html"><h5>Barak Obama</h5></a>
+                                    <div class="border_line"></div>
+                                    <p>Noble peace prize 2009</p>
+                                    <p>44th US president</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="categories_post">
+                            <img src="Pm.jpg" alt="post">
+                            <div class="categories_details">
+                                <div class="categories_text">
+                                    <a href="blog3.html"><h5>Puja marwah</h5></a>
+                                    <div class="border_line"></div>
+                                    <p>CRY foundation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================ End Home Banner Area =================-->
+        
+        <!--================Blog Categorie Area =================-->
+         <section class="blog_area single-post-area section_gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 posts-list">
+                        <div class="single-post row">
+                            <div class="col-lg-12">
+                                <div class="feature-img">
+                                    <img class="img-fluid" src="Bo1.jpg" alt="">
+                                </div>									
+                            </div>
+                            <div class="col-lg-3  col-md-3">
+                                <div class="blog_info text-right">
+                                    <div class="post_tag">
+                                        <a href="#">Children,</a>
+                                        
+                                        <a href="#">Politics,</a>
+                                        
+                                    </div>
+                                    <ul class="blog_meta list">
+                                        <li><a href="#">Barack obama<i class="lnr lnr-user"></i></a></li>
+                                        <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>
+                                        <li><a href="#">1.2M Views<i class="lnr lnr-eye"></i></a></li>
+                                        <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
+                                    </ul>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 blog_details">
+                                <h2>Barack Obama on food and climate change: ‘We can still act and it won’t be too late’</h2>
+                                <p class="excert">
+                                   During the course of my presidency, I made climate change a top priority, because I believe that, for all the challenges that we face, this is the one that will define the contours of this century more dramatically perhaps than the others. No nation, whether it’s large or small, rich or poor, will be immune from the impacts of climate change. We are already experiencing it in America, where some cities are seeing floods on sunny days, where wildfire seasons are longer and more dangerous, where in our arctic state, Alaska, we’re seeing rapidly eroding shorelines, and glaciers receding at a pace unseen in modern times.
+                                </p>
+                                <p>
+                                   But here’s the thing: even if every country somehow puts the brakes on emissions, climate change would still have an impact on our world for years to come. Our changing climate is already making it more difficult to produce food, and we’ve already seen shrinking yields and spiking food prices that, in some cases, are leading to political instability. And when most of the world’s poor work in agriculture, the stark imbalances that we’ve worked so hard to close between developed and developing countries will be even tougher to close. The cost will be borne by people in poor nations that are least equipped to handle it. In fact, some of the refugee flows into Europe originate not only from conflict, but also from places where there are food shortages, which will get far worse as climate change continues. So if we don’t take the action necessary to slow and ultimately stop these trends, the migration that has put such a burden on Europe already will just continue to get worse.
+                                </p>
+                                <p>
+                                  Now, the good news is that there are steps we can take that will make a difference: in the United States, we have been able to bring our emissions down even as we grow our economy. The same is true in many parts of Europe. Take food production, for instance. It’s the second leading driver of greenhouse gas emissions, second only to energy production. But we have already identified ways in which we can address this challenge. The path to a sustainable food future will require unleashing the creative power of our best scientists, and engineers and entrepreneurs, backed by public and private investment, to deploy new innovations in climate-smart agriculture. Better seeds, better storage, crops that grow with less water, crops that grow in harsher climates, mobile technologies that put more agricultural data – including satellite imagery and weather forecasting and market prices – into the hands of farmers, so that they know when to plant and where to plant, what to plant and how it will sell.
+                                </p>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="quotes">
+                                   		The former president addresses the greatest challenges facing the world, and what we can do about them							
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img class="img-fluid" src="Obama.jpg" alt="">
+                                    </div>
+                                    	
+                                    <div class="col-lg-12 mt-25">
+                                        <p>
+                                           
+                                         Young people are more conscious today, they are more innovative, they are more entrepreneurial. Because they are more sceptical of government and politics, it seems as if a lot of people think: “That’s a dirty business, I don’t want to go into it, who wants to be criticised and attacked all the time?” So you’re seeing a lot of people who want to change the world thinking that maybe the best way to do it is by going into business or non-profit organisations.
+                                        </p>
+                                        <p>
+                                          If I were an entrepreneur today, trying to make money and sell my products or services, I would want to understand this youth market. They want to do the right thing, too. If they find out that what you’re selling isn’t good for the environment, or what you’re selling is not good for people, or if they hear that you do not treat your workers well, and do not pay them a decent wage, and don’t provide decent benefits, that can affect your brand. And so part of what has changed is the nature of the entrepreneurs themselves, who may be more socially conscious, coming into their business. Even if you don’t care about these issues, your customers care. And you’ve got to be paying attention to that.
+                                        </p>											
+                                    </div>									
+                                </div>
+                            </div>
+                        </div>
+                        <div class="navigation-area">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
+                                   
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
+                                   
+                                   									
+                                </div>									
+                            </div>
+                        </div>
+                        
+                       
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog_right_sidebar">
+                            <aside class="single_sidebar_widget search_widget">
+                                <div class="input-group">
+                                    
+                                </div><!-- /input-group -->
+                                <div class="br"></div>
+                            </aside>
+                            <aside class="single_sidebar_widget author_widget">
+                                <img class="author_img rounded-circle" src="img/blog/Bo1.jpg" alt="">
+                                <h4>Barack Obama</h4>
+                                <p>Obama foundation</p>
+                                <div class="social_icon">
+                                    <a href="https://www.facebook.com/barackobama/"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://twitter.com/BarackObama?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+                                   
+                                    <a href="https://www.instagram.com/barackobama/?hl=en"><i class="fa fa-instagram"></i></a>
+                                </div>
+                                <p>"Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek."</p>
+                                <div class="br"></div>
+                            </aside>
+                            <aside class="single_sidebar_widget popular_post_widget">
+                                <h3 class="widget_title">Popular Posts</h3>
+                                <div class="media post_item">
+                                    <img src="img/blog/ks24.jpg" alt="post">
+                                    <div class="media-body">
+                                        <a href="blog2.html"><h3>Should Every Child Have The Right To Be A Child? Then We Must Fund Education</h3></a>
+                                       
+                                        <p>02 Hours ago</p>
+                                    </div>
+                                </div>
+                                <div class="media post_item">
+                                    <img src="img/blog/Bo1.jpg" alt="post">
+                                    <div class="media-body">
+                                        <a href="single-blog.html"><h3>Barack Obama on food and climate change: ‘We can still act and it won’t be too late’</h3></a>
+                                        <p>02 Hours ago</p>
+                                    </div>
+                                </div>
+                                <div class="media post_item">
+                                    <img src="img/blog/Pm.jpg" alt="post">
+                                    <div class="media-body">
+                                        <a href="blog3.html"><h3>Bridge gaps in children’s schemes with adequate financing, they are the future and 39% of the Indian population</h3></a>
+                                        <p>03 Hours ago</p>
+                                    </div>
+                                </div>
+                               
+                                <div class="br"></div>
+                            </aside>
+                         
+                           
+                      
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================Blog Area =================-->
+        
+         <!--================ Start footer Area  =================-->	
+    <footer>
+            <div class="footer-area">
+                <div class="container">
+                    <div class="row section_gap">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="single-footer-widget tp_widgets">
+                                <h4 class="footer_title large_title">Our Mission</h4>
+                                <p>
+                                    So seed seed green that winged cattle in. Gathering thing made fly you're no 
+                                    divided deep moved us lan Gathering thing us land years living.
+                                </p>
+                                <p>
+                                    So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+                            <div class="single-footer-widget tp_widgets">
+                                <h4 class="footer_title">Quick Links</h4>
+                                <ul class="list">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Causes</a></li>
+                                    <li><a href="#">Event</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                            <div class="single-footer-widget instafeed">
+                                <h4 class="footer_title">Gallery</h6>
+                                <ul class="list instafeed d-flex flex-wrap">
+                                    <li><img src="img/gallery/g1.jpg" alt=""></li>
+                                    <li><img src="img/gallery/g2.jpg" alt=""></li>
+                                    <li><img src="img/gallery/g3.jpg" alt=""></li>
+                                    <li><img src="img/gallery/g4.jpg" alt=""></li>
+                                    <li><img src="img/gallery/g5.jpg" alt=""></li>
+                                    <li><img src="img/gallery/g6.jpg" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+                            <div class="single-footer-widget tp_widgets">
+                                <h4 class="footer_title">Contact Us</h4>
+                                <div class="ml-40">
+                                    <p class="sm-head">
+                                        <span class="fa fa-location-arrow"></span>
+                                        Head Office
+                                    </p>
+                                    <p>123, Main Street, Your City</p>
+        
+                                    <p class="sm-head">
+                                        <span class="fa fa-phone"></span>
+                                        Phone Number
+                                    </p>
+                                    <p>
+                                        +123 456 7890 <br>
+                                        +123 456 7890
+                                    </p>
+        
+                                    <p class="sm-head">
+                                        <span class="fa fa-envelope"></span>
+                                        Email
+                                    </p>
+                                    <p>
+                                        free@infoexample.com <br>
+                                        www.infoexample.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        
+        </footer>
+        <!--================ End footer Area  =================--> 
+        
+        
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
+</html>
